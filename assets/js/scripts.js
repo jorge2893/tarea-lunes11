@@ -34,18 +34,38 @@
 // }
 
 
-// Nombre del archivo: operaciones.js
-document.write("<p>Operaciones Aritméticas con Números Ingresados por el Usuario:</p>");
+// // Nombre del archivo: operaciones.js
+// document.write("<p>Operaciones Aritméticas con Números Ingresados por el Usuario:</p>");
 
-// Solicitar al usuario que ingrese dos números
-let num1 = Number(prompt("Ingrese el primer número:"));
-let num2 = Number(prompt("Ingrese el segundo número:"));
+// // Solicitar al usuario que ingrese dos números
+// let num1 = Number(prompt("Ingrese el primer número:"));
+// let num2 = Number(prompt("Ingrese el segundo número:"));
 
-// Realizar operaciones aritméticas sin verificar la validez de los números
-document.write("<p>Primer número: " + num1 + "</p>");
-document.write("<p>Segundo número: " + num2 + "</p>");
-document.write("<p>Suma: " + (num1 + num2) + "</p>");
-document.write("<p>Resta: " + (num1 - num2) + "</p>");
-document.write("<p>Multiplicación: " + (num1 * num2) + "</p>");
-document.write("<p>División: " + (num1 / num2) + "</p>");
-document.write("<p>Módulo: " + (num1 % num2) + "</p>");
+// // Realizar operaciones aritméticas sin verificar la validez de los números
+// document.write("<p>Primer número: " + num1 + "</p>");
+// document.write("<p>Segundo número: " + num2 + "</p>");
+// document.write("<p>Suma: " + (num1 + num2) + "</p>");
+// document.write("<p>Resta: " + (num1 - num2) + "</p>");
+// document.write("<p>Multiplicación: " + (num1 * num2) + "</p>");
+// document.write("<p>División: " + (num1 / num2) + "</p>");
+// document.write("<p>Módulo: " + (num1 % num2) + "</p>");
+
+
+
+let numero1 = prompt("Ingresar primer numero");
+let numero2 = prompt("Ingresar segundo numero");
+
+numero1 = Number(numero1);
+numero2 = Number(numero2);
+
+let suma = numero1 + numero2;
+document.writeln("<p>El resultado de la suma es: " + suma + "</p>");
+
+let resta = numero1 - numero2;
+document.writeln("<p>El resultado de la resta es: " + resta + "</p>");
+
+let multiplicación = numero1 * numero2;
+document.writeln("<p>El resultado de la multiplicación es: " + multiplicación + "</p>");
+
+let división = numero1 / numero2;
+document.writeln("<p>El resultado de la división es: " + división + "</p>");
