@@ -59,13 +59,19 @@ numero1 = Number(numero1);
 numero2 = Number(numero2);
 
 let suma = numero1 + numero2;
+
 document.writeln("<p>El resultado de la suma es: " + suma + "</p>");
 
 let resta = numero1 - numero2;
+
 document.writeln("<p>El resultado de la resta es: " + resta + "</p>");
 
 let multiplicación = numero1 * numero2;
+
 document.writeln("<p>El resultado de la multiplicación es: " + multiplicación + "</p>");
 
 let división = numero1 / numero2;
+
 document.writeln("<p>El resultado de la división es: " + división + "</p>");
+
+// no se debe colocar defer en el script de js
