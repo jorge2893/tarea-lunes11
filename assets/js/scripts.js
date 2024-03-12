@@ -52,11 +52,12 @@
 
 
 
-let numero1 = prompt("Ingresar primer numero");
-let numero2 = prompt("Ingresar segundo numero");
+let numero1 = prompt("Ingresar primer numero mayor a cero");
+let numero2 = prompt("Ingresar segundo numero mayor a cero");
 
 numero1 = Number(numero1);
 numero2 = Number(numero2);
+
 
 let suma = numero1 + numero2;
 
@@ -73,5 +74,9 @@ document.writeln("<p>El resultado de la multiplicación es: " + multiplicación 
 let división = numero1 / numero2;
 
 document.writeln("<p>El resultado de la división es: " + división + "</p>");
+
+let Módulo = numero1 % numero2
+
+document.writeln("<p>El resultado del modulo es: " + Módulo + "</p>");
 
 // no se debe colocar defer en el script de js
